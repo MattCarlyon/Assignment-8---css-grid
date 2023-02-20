@@ -1,0 +1,112 @@
+
+main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid__container {
+    display: grid;
+    grid-template-columns:2fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(10, 1fr);
+    gap: 24px;
+    background-color: black;
+    padding: 24px;
+    height: 100vh;
+    width: 96.75%;
+}
+
+.grid__element {
+    overflow: hidden;
+    position: relative;
+}
+
+.first {
+    background-color: black;
+    grid-row:1 / 4;
+    grid-column:1 / 2;
+}
+
+.second {
+    background-color: rgb(216, 213, 213);
+    color: rgb(216, 213, 213);
+    grid-row:4 /7;
+    grid-column:1 / 2;
+}
+
+.third {
+    background-color: yellow;
+    color: yellow;
+    grid-row:7 / 11;
+    grid-column:1 / 2;
+}
+
+.fourth {
+    background-color: red;
+    color: red;
+    grid-row:1 / 7;
+    grid-column:2 / 4;
+}
+
+.fith {
+    background-color: white;
+    color: white;
+    grid-row:7 / 9;
+    grid-column:2 / 3;
+}
+
+.sixth {
+    background-color: white;
+    color: white;
+    grid-row:9 / 11;
+    grid-column:2 / 3;
+}
+
+.seventh {
+    background-color: blue;
+    color: blue;
+    grid-row:1 / 3;
+    grid-column:4 / 6;
+}
+
+.eighth {
+    background-color: yellow;
+    color: yellow;
+    grid-row:3 / 5;
+    grid-column:4 / 6;
+}
+
+.ninth {
+    background-color: white;
+    color: white;
+    grid-row: 5 / 7;
+    grid-column:4 / 6;
+}
+
+.tenth {
+    background-color: blue;
+    color: blue;
+    grid-row:7 / 11;
+    grid-column:3 / 5;
+}
+
+.eleventh {
+    background-color: red;
+    color: red;
+    grid-row:7 / 11;
+    grid-column:5 / 6;
+}
+
+.footer{
+    width: 96.75%;
+    height: 146px;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 75px;
+    align-self: center;
+}
